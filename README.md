@@ -2,12 +2,12 @@
 
 # Kaggle Project: Metastatic Cancer Diagnosis
 
-This repository holds an attempt to train a model that can predict the chance of a patient recieving a successful cancer diagnosis within 90 days from the "Metastatic Cancer Diagnosis" Kaggle challenge [blue_text](https://www.kaggle.com/competitions/widsdatathon2024-challenge1/overview). 
+This repository holds an attempt to train a model that can predict the chance of a patient recieving a successful cancer diagnosis within 90 days from the "Metastatic Cancer Diagnosis" Kaggle challenge: [Kaggle Challenge Details](https://www.kaggle.com/competitions/widsdatathon2024-challenge1/overview). 
 
 ## Overview
-    The task for this Kaggle challenge was to use the provided dataset, which described general patient information, to train a model that could whether or not the patient recieved a metastaic cancer diagnosis within 90 days of screening. 
-    The approach in this repository formulates the problem as binary classification task. Numerous models were trained, optimized, and tested for comparison, including a simple neural network, an AdaBoost ensemble using a tree classifier as an estimator, and a boosted gradient ensemble. These models were trained using features describing the patients' locations, ages, and cancer diagnosis codes and descisions. 
-    My best model was able to obtain about 80% accuracy on the validation set, and recieved private and public scores from Kaggle of 0.789 and 0.798, respectively, for the provided test set. 
+   The task for this Kaggle challenge was to use the provided dataset, which described general patient information, to train a model that could whether or not the patient recieved a metastaic cancer diagnosis within 90 days of screening. 
+   The approach in this repository formulates the problem as binary classification task. Numerous models were trained, optimized, and tested for comparison, including a simple neural network, an AdaBoost ensemble using a tree classifier as an estimator, and a boosted gradient ensemble. These models were trained using features describing the patients' locations, ages, and cancer diagnosis codes and descisions. 
+   My best model was able to obtain about 80% accuracy on the validation set, and recieved private and public scores from Kaggle of 0.789 and 0.798, respectively, for the provided test set. 
 
 ## Summary of Workdone
 
@@ -70,8 +70,8 @@ This repository holds an attempt to train a model that can predict the chance of
   | Boosted Grad. | Train | 0.813 | 0.823 |
   | Boosted Grad. | Validation | 0.813 | 0.802 |
   | Boosted Grad. | Test | 0.810 | 0.791 |
-* ROC Curve Comparison:
-  ![](ROC_comp.png)
+* ROC Curve Comparison:  
+![](ROC_comp.png)
 
 ### Conclusions
 
@@ -112,14 +112,14 @@ This repository holds an attempt to train a model that can predict the chance of
 
 ### Data
 
-* The data can be downloaded here: [blue_text](https://www.kaggle.com/competitions/widsdatathon2024-challenge1/data)
+* The data can be downloaded here: [Challenge Data](https://www.kaggle.com/competitions/widsdatathon2024-challenge1/data)
 * Click "Download All" at the bottom of the page.
 
 ### Training
 
 * These models can be trained by running the Kaggle_Project notebook in the repository.
 * You can also refer to the official sklearn website to find the required parameters for each model.
-* Sklearn website: [blue_text](https://scikit-learn.org/stable/)
+* Sklearn website: [scikit-learn.org](https://scikit-learn.org/stable/)
 
 #### Performance Evaluation
 
@@ -129,8 +129,8 @@ This repository holds an attempt to train a model that can predict the chance of
 ## Citations
 
 * References:
-  * pax2m soluton; used as a basis for understanding sklearn ensemble and gridsearch functions: [blue_text](https://www.kaggle.com/competitions/widsdatathon2024-challenge1/discussion/483037)
-  * Sklearn website; used for understanding the models and their parameters: [blue_text](https://scikit-learn.org/stable/)
+  * pax2m soluton; used as a basis for understanding sklearn ensemble and gridsearch functions: [pax2m submission](https://www.kaggle.com/competitions/widsdatathon2024-challenge1/discussion/483037)
+  * Sklearn website; used for understanding the models and their parameters: [scikit-learn.org](https://scikit-learn.org/stable/)
 
 
 
