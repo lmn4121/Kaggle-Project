@@ -30,7 +30,7 @@ This repository holds an attempt to train a model that can predict the chance of
 #### Data Visualization
 
 ![](pairplot.png)
-* Thus grid compares the success/failure for the metastatic cancer diagnosis within 90 days for each feature.
+* This grid compares the success/failure for the metastatic cancer diagnosis within 90 days for each feature.
   * From this grid, it appears that 'metastatic_cancer_diagnosis_code', 'breast_cancer_diagnosis_code', 'breast_cancer_diagnosis_desc' are the best features for separating success from failure for the target feature. 
 
 ### Problem Formulation
