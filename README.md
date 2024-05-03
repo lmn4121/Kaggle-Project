@@ -62,20 +62,20 @@ This repository holds an attempt to train a model that can predict the chance of
   | Model | Subset | Accuracy Score | ROC AUC Score |
   |---|---|---|---|
   | SNN | Train | 0.811 | 0.811 |
-  | SNN | Vaidation | 0.813 | 0.794 |
-  | SNN | Test | 0.810 | 0.791 |
   | AdaBoost | Train | 0.811 | 0.817 |
-  | AdaBoost | Valdiation | 0.813 | 0.797 |
-  | AdaBoost | Test | 0.811 | 0.794 |
   | Boosted Grad. | Train | 0.813 | 0.823 |
+  | SNN | Validation | 0.813 | 0.794 |
+  | AdaBoost | Validation | 0.813 | 0.797 |
   | Boosted Grad. | Validation | 0.813 | 0.802 |
+  | SNN | Test | 0.810 | 0.791 |
+  | AdaBoost | Test | 0.811 | 0.794 |
   | Boosted Grad. | Test | 0.810 | 0.791 |
 * ROC Curve Comparison:  
 ![](ROC_comp.png)
 
 ### Conclusions
 
-* It can be concluded that, while the three models performed similiarly, that the boosted gradient worked best, followed by the AdaBoost ensemble and simple neural network.
+* It can be concluded that, while the three models performed similiarly, the boosted gradient worked best, followed by the AdaBoost ensemble and simple neural network.
 
 ### Future Work
 
