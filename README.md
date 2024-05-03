@@ -106,6 +106,7 @@ This repository holds an attempt to train a model that can predict the chance of
   * Sklearn
 * Installation Process:
   * All packages were installed via the Linux subsystem for Windows.
+  * All packages were installed via Ubuntu.
   * pip3 install numpy
   * pip3 install pandas
   * pip3 install -U scikit-learn
