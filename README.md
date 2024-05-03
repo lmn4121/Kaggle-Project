@@ -19,7 +19,7 @@ This repository holds an attempt to train a model that can predict the chance of
     * Input: CSV file of features; text and numerical data describing patient information, such as state, age, cancer diagnosis codes, etc.
     * Output: success/failure; whether or not the patient recieved a metastatic cancer diagnosis within 90 days of screening.
   * Size: 12,906 observations/rows; 83 features/columns
-  * Instances (Train, Validation, Test; Split): 6000 points for training, 3500 points for validation, 3406 poits for testing
+  * Instances (Train, Validation, Test; Split): 6000 points for training, 3500 points for validation, 3406 points for testing
 
 #### Preprocessing / Clean up
 
